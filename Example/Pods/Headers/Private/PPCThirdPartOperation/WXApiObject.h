@@ -1,0 +1,1 @@
+../../../../../PPCThirdPartOperation/Classes/framework/wechat/WXApiObject.h

@@ -1,0 +1,6 @@
+framework module PPCThirdPartOperation {
+  umbrella header "PPCThirdPartOperation-umbrella.h"
+
+  export *
+  module * { export * }
+}

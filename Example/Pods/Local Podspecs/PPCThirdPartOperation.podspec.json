@@ -1,0 +1,56 @@
+{
+  "name": "PPCThirdPartOperation",
+  "version": "0.1.0",
+  "summary": "A short description of PPCThirdPartOperation.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/rainyboyer/PPCThirdPartOperation",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Pen": "pengjunhua2005@21cn.com"
+  },
+  "source": {
+    "git": "https://github.com/rainyboyer/PPCThirdPartOperation.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PPCThirdPartOperation/Classes/**/*.{h,m}",
+  "public_header_files": [
+    "PPCThirdPartOperation/Classes/framework/tencent/TencentOpenAPI.framework/Headers/**/*.h",
+    "PPCThirdPartOperation/Classes/**/*.h"
+  ],
+  "frameworks": [
+    "Foundation",
+    "UIKit",
+    "MapKit",
+    "QuartzCore",
+    "CoreText",
+    "ImageIO",
+    "Security",
+    "CoreTelephony",
+    "CoreGraphics",
+    "SystemConfiguration"
+  ],
+  "libraries": [
+    "iconv",
+    "z",
+    "stdc++",
+    "sqlite3"
+  ],
+  "resources": "PPCThirdPartOperation/Classes/framework/tencent/TencentOpenApi_IOS_Bundle.bundle",
+  "ios": {
+    "vendored_frameworks": "PPCThirdPartOperation/Classes/framework/tencent/TencentOpenAPI.framework"
+  },
+  "dependencies": {
+    "AFNetworking": [
+      "~> 3.1.0"
+    ],
+    "SVProgressHUD": [
+      "~> 2.0.3"
+    ]
+  }
+}

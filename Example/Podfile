@@ -1,0 +1,6 @@
+use_frameworks!
+
+target 'PPCThirdPartOperation_Example' do
+  pod 'PPCThirdPartOperation', :path => '../'
+
+end

@@ -1,0 +1,37 @@
+#import <UIKit/UIKit.h>
+
+#import "QQApiInterface.h"
+#import "QQApiInterfaceObject.h"
+#import "sdkdef.h"
+#import "TencentApiInterface.h"
+#import "TencentMessageObject.h"
+#import "TencentOAuth.h"
+#import "TencentOAuthObject.h"
+#import "F4HandleEngine.h"
+#import "F4HandleProtocol.h"
+#import "F4QQHandler.h"
+#import "F4ShareHTTPTool.h"
+#import "F4ShareMessage.h"
+#import "F4ShareUserInfo.h"
+#import "FA_BaseActionSheet.h"
+#import "WBHttpRequest+WeiboGame.h"
+#import "WBHttpRequest+WeiboShare.h"
+#import "WBHttpRequest+WeiboToken.h"
+#import "WBHttpRequest+WeiboUser.h"
+#import "WBHttpRequest.h"
+#import "WBSDKBasicButton.h"
+#import "WBSDKCommentButton.h"
+#import "WBSDKRelationshipButton.h"
+#import "WeiboSDK+Statistics.h"
+#import "WeiboSDK.h"
+#import "WeiboUser.h"
+#import "WechatAuthSDK.h"
+#import "WXApi.h"
+#import "WXApiObject.h"
+#import "NSDictionary+URLQuery.h"
+#import "PodAsset.h"
+#import "Singleton.h"
+
+FOUNDATION_EXPORT double PPCThirdPartOperationVersionNumber;
+FOUNDATION_EXPORT const unsigned char PPCThirdPartOperationVersionString[];
+
