@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '6628717D6BF0AA8AA1B2BD7A'
+               BlueprintIdentifier = 'A66497C90A3B59E8DB78867C'
                BlueprintName = 'PPCThirdPartOperation'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'PPCThirdPartOperation.framework'>

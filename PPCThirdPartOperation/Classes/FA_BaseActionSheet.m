@@ -38,11 +38,9 @@
         {
             NSString *title = [[F4HandleEngine sharedInstance] getPlatformNameWith:[[titles objectAtIndex:i] intValue]];
             NSString *logoName = [[F4HandleEngine sharedInstance] getPlatformImageNameWith:[[titles objectAtIndex:i] intValue]];
-            NSData *logoData = [PodAsset dataForFilename:[logoName stringByAppendingPathExtension:@"png"]
-                                                     pod:@"PPCThirdPartOperation"];
             
             UIImage *logoImage = [self imageByScalingAndCroppingForSize:LogoImageSize
-                                                            sourceImage:[UIImage imageWithData:logoData]];
+                                                            sourceImage:[UIImage imageNamed:logoName]];
             UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
             [button setFrame:CGRectMake((i%4)* buttonWidth, (i/4)*ButtonHeight, buttonWidth, ButtonHeight)];
             [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
